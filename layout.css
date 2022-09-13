@@ -11,8 +11,13 @@
     background-color: lightseagreen;
 }
 
+#body4{
+  background-color: rgb(55, 44, 246);
+}
 
-
+#body5{
+  background-color: rgb(255, 56, 56);
+}
 
   p {
     font-family: Arial, Helvetica, sans-serif;
