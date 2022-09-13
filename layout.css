@@ -61,5 +61,9 @@
     background-color: #04AA6D;
   }
   
-  
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   
