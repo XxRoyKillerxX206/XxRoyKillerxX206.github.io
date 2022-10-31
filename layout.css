@@ -39,6 +39,17 @@
     text-decoration-line: overline;
   }
   
+  h1 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  h3 {
+    color: white;
+  }
 
   ul {
     list-style-type: none;
