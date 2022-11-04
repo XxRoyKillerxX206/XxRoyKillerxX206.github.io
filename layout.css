@@ -23,15 +23,15 @@
   }
   
   h1 {
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
   }
 
   p {
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
   }
 
   h3 {
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
   }
 
   ul {
@@ -61,3 +61,5 @@
   .active {
     background-color: #04AA6D;
   }
+
+  footer {text-align: center;color:whitesmoke;}
