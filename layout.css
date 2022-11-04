@@ -1,38 +1,38 @@
 #body1{
-  background-image: url("achtergrondplaatje4.jpg");
+  background-image: url("achtergrondplaatje4.jpg");   /*Hiermee verander ik de achtrgrond in een plaatje*/
 }
 
   p {
     font-family: Arial, Helvetica, sans-serif; font-size: 18px;
-  }
+  }   /*Hiermee verander ik de fond van de paragraven naar arial*/
 
   h1 {
     font-family: Arial, Helvetica, sans-serif; font-size: 40px;
-  }
+  }   /*Hiermee verander ik de fond van de titels naar arial*/
 
   h3 {
     font-family: Arial, Helvetica, sans-serif; font-size: 27px;
-  }
+  }   /*Hiermee verander ik de fond van de kopjes naar arial*/
 
   h1 {
     text-align: center;
-  }
+  } /*Hiermee zet ik de titels in het midden*/
 
   h1 {
     text-decoration-line: overline;
-  }
+  }   /*Hiermee zet ik een streep op de titels*/
   
   h1 {
     color: whitesmoke;
-  }
+  }  /*Hiermee verander ik de kleur van de titels*/
 
   p {
     color: whitesmoke;
-  }
+  }  /*Hiermee verander ik de kleur van de paragraven*/
 
   h3 {
     color: whitesmoke;
-  }
+  }   /*Hiermee verander ik de kleur van de kopjes*/
 
   ul {
     list-style-type: none;
@@ -40,11 +40,11 @@
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
-  }
+  }  /*Hiermee verander ik de achtergrondkleur van het menu*/
   
   li {
     float: left;
-  }
+  }   /*Hiermee zorg ik ervoor dat het menu links komt*/
   
   li a {
     display: block;
@@ -52,14 +52,12 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+  }  /*Hiermee verander ik de vorm van het menu, naar blokken*/
   
   li a:hover {
     background-color: rgb(255, 255, 255); color: black;
-  }
+  }  /*Hiermee veranderd de kleur van het blokje als je er met je muis overheen gaat*/
 
-  .active {
-    background-color: #04AA6D;
-  }
 
   footer {text-align: center;color:whitesmoke; font-size: 25px; text-decoration-line: underline;}
+  /*Hiermee verander ik het uiterlijk van de footer*/
