@@ -64,46 +64,25 @@
 
 
 
+
+
   
 
-{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
+  /* Basisstijlen voor de dropdown */
 .dropdown {
-  float: left;
-  overflow: hidden;
+  position: relative;
+  display: inline-block;
 }
 
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
+.dropbtn {
+  background-color: #3498db;
   color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
+/* Stijlen voor de dropdown-content (de opties) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -114,34 +93,21 @@
 }
 
 .dropdown-content a {
-  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
 }
 
+/* Hover-stijl voor de opties */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
+/* Zorg ervoor dat de dropdown-content wordt weergegeven bij hover op de dropdown */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-</style>
-</head>
-<body style="background-color:white;">
 
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
   
+
