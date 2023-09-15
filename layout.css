@@ -104,6 +104,7 @@
   /* Zorg ervoor dat de dropdown-content wordt weergegeven bij hover op de dropdown */
   .dropdown:hover .dropdown-content {
     display: block;
+    z-index: 10000;
   }
 
 
