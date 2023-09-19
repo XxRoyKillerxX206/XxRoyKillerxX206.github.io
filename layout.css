@@ -94,6 +94,7 @@
    /* padding: 12px 16px; */
     text-decoration: none;
     display: block;
+    z-index: 10000;
   }
   
   /* Hover-stijl voor de opties */
@@ -104,7 +105,7 @@
   /* Zorg ervoor dat de dropdown-content wordt weergegeven bij hover op de dropdown */
   .dropdown:hover .dropdown-content {
     display: block;
-    z-index: 10000;
+    
   }
 
 
