@@ -72,7 +72,7 @@
   }
   
   .dropbtn {
-    background-color: #000000;
+    background-color: #979797;
     color: white;
     padding: 10px;
     border: none;
@@ -101,6 +101,11 @@
     background-color: #ffffff;
   }
   
+ /* Hover-stijl voor de opties */
+ .dropdown-content a:hover {
+  text-emphasis-color: #000000;
+}
+
   /* Zorg ervoor dat de dropdown-content wordt weergegeven bij hover op de dropdown */
   .dropdown:hover .dropdown-content {
     display: block;
