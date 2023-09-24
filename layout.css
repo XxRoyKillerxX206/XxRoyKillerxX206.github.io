@@ -98,7 +98,7 @@
   
   /* Hover-stijl voor de opties */
   .dropdown-content a:hover {
-    background-color: #ffffff;
+    background-color: #ffffff; color: black;
   }
   
  /* Hover-stijl voor de opties */
